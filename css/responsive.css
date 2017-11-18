@@ -243,14 +243,18 @@
 		font-size: .8em;
 	}
 
-	nav ul a li {
-		
+	nav ul a li,
+	nav ul li {	
 		padding: 0 1em;
 	}
 
-	nav ul li {
-		padding: 0 1em;
+	nav ul ul a li 
+	{
+		text-transform: uppercase;
+		height: 3em;
+		padding-top: 10px;
 	}
+
 
 	p, 
 	.back-to-top 
@@ -326,6 +330,12 @@
 @media (max-width: 275px) {
 	nav ul {
 		font-size: .7em;
+	}
+
+	nav ul ul a li 
+	{	
+		height: 3.5em;	
+		font-size: 1.2em;
 	}
 
 
