@@ -1,0 +1,124 @@
+<!doctype HTML>
+<html lang="pl"> 
+
+<head>
+	<meta charset="utf-8"> 
+	<title> Joanna Buzderewicz - obrazy, ikony </title>
+	<meta property="og:title" content="Joanna Buzderewicz - obrazy, ikony" >
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" type="text/css"> 
+	<link rel="stylesheet" href="css/normalize.css" type="text/css"> 
+	<link rel="stylesheet" href="css/interactions.css" type="text/css"> 
+	<link rel="stylesheet" href="css/responsive.css" type="text/css"> 
+	<link rel="stylesheet" href="css/contact.css" type="text/css"> 
+
+	 
+
+</head>
+<body>
+
+<!-- header  -->
+
+	<header>
+		<div class="logo"><a href="index.html"> Joanna Buzderewicz </br>
+			<span> <a href="gallery.html"> obrazy </a>  |  <a href="icons-gallery.html"> ikony </a> </span> </a> 
+		</div>
+
+		<div class="nav-container">
+		<nav> 
+			<ul class="main"> 
+				<a href="index.html"><li> Home </li> </a>
+				<a href="about.html"><li> O mnie  </li></a>
+				<li><a href="#" class="arrowlink" aria-haspopup="true"> Sklep </a>
+
+					<ul> 
+						<a href="gallery.html"><li>  Obrazy </li></a> 
+						<a href="icons-gallery.html"><li>  Ikony </li> </a> 
+					</ul>
+				</li>
+				<a href="#"><li class="active"> Kontakt</li> </a> 
+			</ul>
+		</nav>
+		</div>
+
+		<div class="search"> </div>
+		<div class="cart"> 
+			<a href="cart.html" class="cart-link"> 
+				<div id="number" class="cart-number">0</div>
+				<img class="cart-bg" src="img/icons/cart48.png"> <img class="cart-sm" src="img/icons/cart32.png"> 
+			</a>
+		</div>
+
+	</header>
+
+
+<!-- form  -->
+<section>
+<div class="contact-container">
+
+	<div class="contact-wrapper">	
+
+		<h1> Kontakt </h1>
+
+			<div class="contact-info"> 
+				<span class="contact-name"> Joanna Buzderewicz </span> </br>
+				Nr tel: 667 121 209</br>
+				Nr konta: 33 9823 2844 3782 6453 </br>
+			</div>
+
+		<form id="contact-form" action="contact.html" method="POST">
+
+
+			<label for="name"> Imię i Nazwisko  </label> 
+			<input type="text" id="username" placeholder="Imię i nazwisko" name="username">
+
+			<label for="email"> Adres e-mail </label> 
+			<input type="text" id="email" placeholder="Adres e-mail" name="email">
+
+            <label for="phoneNumber"> Numer telefonu </label> 
+            <input type="number" id="phoneNumber" placeholder="Nr telefonu" name="phoneNumber">
+
+			<label for="subject"> Temat wiadomości </label> 
+			<input type="text" id="subject" placeholder="Temat" name="subject">
+
+			<label for="message"> Treść wiadomości </label> 
+			<textarea name="message" id="msg" rows="10"> </textarea>
+
+			<input class="btn default" type="submit" id="submit" value="Wyślij"> 
+
+
+
+		</form>
+
+	</div> <!--End of form-container -->
+
+</div>
+</section>
+
+
+<!-- footer  -->
+
+	<footer> 
+
+		<div class="copy"> &copy; Buzderewicz 2017 </div> 
+		<ul> 
+			<li><a href="terms.html"> Regulamin   </a></li>
+			<li><a href="#"> Wysyłka i Płatność   </a></li>
+			<li><a href="#">  Cennik  </a></li>
+
+
+		</ul>
+
+	</footer>
+
+
+<script src="js/jquery-3.2.1.min.js"> </script> 
+<script src="js/jquery.validate.min.js"> </script>
+<script src="js/additional-methods.min.js"> </script>
+<script src="js/validate.js"> </script>
+
+
+</body>
+
+</html>

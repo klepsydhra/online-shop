@@ -1,0 +1,177 @@
+/* RWD for paintings and icons galleries */
+
+
+@media only screen and (max-width: 1200px){
+	
+		.paint-wrapper
+		{
+			max-width: 1000px;
+			padding: 20px 0;
+			margin: 0 auto;
+			line-height: 20px;
+	
+			column-count: 3;
+			column-gap: 0;
+			-webkit-column-count: 3;
+			-webkit-column-gap: 0;
+			-moz-column-count: 3;
+			-moz-column-gap: 0; 
+		
+		}
+	
+	}
+
+@media only screen and (max-width: 1020px){
+
+	.img-wrapper
+	{
+		max-width: 930px;
+		padding: 20px 4%;
+		margin: 0 auto;
+		line-height: 20px;
+
+		column-count: 2;
+		column-gap: 0;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 0;
+		-moz-column-count: 2;
+		-moz-column-gap: 0; 
+	
+	}
+
+}
+
+
+@media only screen and (max-width: 750px){
+
+	.photo
+	{
+		margin-bottom: 1em;
+	}
+
+	.photo-container
+	{
+		margin-bottom: 1em;
+		/*border-bottom: 2px solid green; */
+	}
+
+	.img-wrapper
+	{
+		padding: 1em 1%;
+	}
+
+}
+
+
+@media only screen and (max-width: 645px){
+
+	.icon 
+	{
+		display: none;
+	}
+ 
+ 	.icon2 
+ 	{
+ 		display: block;
+ 	}   
+
+	.img-wrapper
+	{
+		
+		padding: 20px 4%;
+		line-height: 20px;
+		display: flex;
+		flex-wrap: wrap;
+	} 	
+
+	.photo-overlay 
+	{
+		width: 400px;
+	}
+}
+
+
+@media only screen and (max-width: 450px){
+
+	.icon 
+	{
+		display: block;
+	}
+ 
+ 	.icon2 
+ 	{
+ 		display: none
+ 	}   
+
+ 	.icon3 
+ 	{
+ 		display: none;
+	 }
+	
+
+	.img-wrapper
+	{
+		margin: 0 auto;
+		padding: 20px 1%;
+		line-height: 20px;
+		
+	} 	
+
+	.photo-overlay 
+	{
+		width: 300px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 310px){
+
+	.icon 
+	{
+		display: none;
+	}
+
+ 	.icon3 
+ 	{
+ 		display: block;
+	 }
+	 
+	 .pic 
+	 {
+		 display: none;
+	 }
+
+	 .pic2 
+	 {
+		 display: block;
+	 }
+
+	.img-wrapper
+	{
+		margin: 0 auto;
+		padding: 20px 1%;
+		line-height: 20px;		
+	} 	
+
+	.photo-overlay 
+	{
+		width: 214px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

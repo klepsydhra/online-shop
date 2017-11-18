@@ -1,0 +1,80 @@
+/* ================================= 
+  Photo Overlay Transitions
+==================================== */
+
+.photo-overlay 
+{
+	opacity: 0;
+	transition: opacity .5s;
+}
+.photo-overlay:hover 
+{
+	opacity: 1;
+}
+
+
+/* ================================= 
+  Image Transforms & Transitions
+==================================== */
+/*
+img 
+{
+	transition: transform .5s;  
+}
+
+
+.photo img 
+{
+	transform-origin: 0 0;
+}
+
+.photo:hover img 
+{
+  transform: scale(1.1);
+} */
+
+/* ================================= 
+  Order Button Transitions
+==================================== */
+
+.order {
+	transition: background .3s, color .3s;
+}
+.order:hover {
+	color: #fff;
+	background: #62B5A0;
+}
+
+/* ================================= 
+  Nav List Transitions
+==================================== */
+
+nav ul li 
+{
+	transition: background-color .4s;
+}
+
+nav ul li:hover 
+{
+	background-color: #75E0C5;
+}
+
+
+/* ================================= 
+  Contact Transitions
+==================================== */
+
+
+.btn 
+{
+	transition: opacity .4s;
+}
+
+.btn:hover 
+{
+	opacity: .8;
+}
+
+
+
+

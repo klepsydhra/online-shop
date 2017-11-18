@@ -1,0 +1,234 @@
+<!doctype HTML>
+<html lang="pl"> 
+
+<head>
+	<meta charset="utf-8"> 
+	<title> Joanna Buzderewicz - obrazy, ikony </title>
+	<meta property="og:title" content="Joanna Buzderewicz - obrazy, ikony" >
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" type="text/css"> 
+	<link rel="stylesheet" href="css/normalize.css" type="text/css"> 
+	<link rel="stylesheet" href="css/interactions.css" type="text/css"> 
+	<link rel="stylesheet" href="css/responsive.css" type="text/css"> 
+	<link rel="stylesheet" href="css/contact.css" type="text/css"> 
+
+	 
+
+</head>
+<body>
+
+<!-- header  -->
+
+	<header>
+        <div class="logo"><a href="index.html"> Joanna Buzderewicz </br>
+            <span> <a href="gallery.html"> obrazy </a>  |  <a href="icons-gallery.html"> ikony </a> </span> </a> 
+        </div>
+
+		<div class="nav-container">
+		<nav> 
+			<ul class="main"> 
+				<a href="index.html"><li> Home </li> </a>
+				<a href="about.html"><li> O mnie  </li></a>
+				<li class="active"><a href="#" class="arrowlink" aria-haspopup="true"> Sklep </a>
+
+					<ul> 
+						<a href="gallery.html"><li>  Obrazy </li></a> 
+						<a href="icons-gallery.html"><li>  Ikony </li> </a> 
+					</ul>
+				</li>
+				<a href="contact.html"><li> Kontakt</li> </a> 
+			</ul>
+		</nav>
+		</div>
+
+		<div class="search"> </div>
+        <div class="cart"> 
+            <a href="cart.html" class="cart-link"> 
+                <div id="number" class="cart-number">0</div>
+                <img class="cart-bg" src="img/icons/cart48.png"> <img class="cart-sm" src="img/icons/cart32.png"> 
+            </a>
+        </div>
+
+	</header>
+
+
+<!-- form  -->
+<section>
+<div class="contact-container">
+
+	<div class="contact-wrapper">	
+
+		<h1> Zamów ikonę dla siebie </h1>
+
+			<div class="contact-info"> 
+				<span class="contact-name"> Joanna Buzderewicz </span> </br>
+				Nr tel: 667 121 209</br>
+				Nr konta: 33 9823 2844 3782 6453 </br>
+			</div>
+
+            <div class="chosen-icon">
+                <h2> Tytuł ikony: </h2> 
+                <div class="icon-order"> </div>
+            </div>
+
+		<form id="contact-form" action="icons-purchase.html" method="POST">
+
+<!-- 
+			<label for="name"> Imię i nazwisko </label> 
+			<input type="text" id="username" placeholder="Imię i nazwisko" name="username">
+
+			<label for="email"> Adres e-mail </label> 
+            <input type="text" id="email" placeholder="Adres e-mail" name="email">
+
+
+            <label for="street"> Ulica </label> 
+            <input type="text" id="street" placeholder="Ulica" name="street">
+
+            <label for="postalCode"> Kod pocztowy </label> 
+            <input type="number" id="postalCode" placeholder="Kod pocztowy" name="postalCode">
+
+            <label for="city"> Miasto </label> 
+            <input type="text" id="city" placeholder="Miasto" name="city">
+-->       
+         <!--   <label for="select-icon">Tytuł zamawianej ikony</label>
+            <select name="icons-title" > 
+                <option value="ikona1"> ikona1 </option>
+                <option value="ikona2"> ikona2 </option>
+                <option value="ikona3"> ikona3 </option>
+                <option value="ikona4"> ikona4 </option>
+                <option value="ikona5"> ikona5 </option>
+                <option value="ikona6"> ikona6 </option>
+                <option value="ikona7"> ikona7 </option>
+                <option value="ikona8"> ikona8 </option>
+                <option value="ikona9"> ikona9 </option>                
+            </select> -->
+
+            <label for="select-size">Wymiary zamawianej ikony</label>
+            <select name="icons-size" > 
+                <option value="ikona1-size"> 20cm x 15cm </option>
+                <option value="ikona2-size"> 15cm x 25cm </option>
+                <option value="ikona3-size"> 25cm x 35cm</option>
+                <option value="ikona4-size"> 30cm x 20cm </option>
+                <option value="ikona5-size"> 20cm x 30cm </option>
+                      
+            </select>
+
+
+<!--
+
+            <label for="select-icon">Tytuł zamawianej ikony</label>
+            <div class="multiselect">
+                <div class="select-box">
+                    <select>
+                        <option>Wybierz ikonę</option>
+                    </select>
+                    <div class="over-select"></div>
+                </div>
+                <div id="checkboxes">
+                    <label for="icon1">
+                        <input type="checkbox" id="one" name="icon" value="ikona1"/>Ikona 1
+                    </label>
+                    <label for="icon2">
+                        <input type="checkbox" id="two" name="icon" value="ikona1"/>Ikona 2
+                    </label>
+                    <label for="icon3">
+                        <input type="checkbox" id="three" name="icon" value="ikona1"/>Ikona 3
+                    </label>
+                    <label for="icon4">
+                        <input type="checkbox" id="four" name="icon" value="ikona1"/>Ikona 4
+                    </label>
+                    <label for="icon5">
+                        <input type="checkbox" id="five" name="icon" value="ikona1"/>Ikona 5
+                    </label>
+                    <label for="icon6">
+                        <input type="checkbox" id="six" name="icon" value="ikona1"/>Ikona 6
+                    </label>
+                    <label for="icon7">
+                        <input type="checkbox" id="seven" name="icon" value="ikona1"/>Ikona 7
+                    </label>
+                    <label for="icon8">
+                        <input type="checkbox" id="eight" name="icon" value="ikona1"/>Ikona 8
+                    </label>
+                    <label for="icon9">
+                        <input type="checkbox" id="nine" name="icon" value="ikona1"/>Ikona 9
+                    </label>
+                </div>
+            </div>
+
+            <label for="select-icon">Wymiary zamawianej ikony</label>
+            <div class="multiselect">
+                <div class="select-box">
+                    <select>
+                        <option>Szerokość x Długość</option>
+                    </select>
+                    <div class="over-select"></div>
+                </div>
+                <div id="size-checkboxes">
+                    <label for="size1">
+                        <input type="checkbox" id="one" name="icon" value="ikona1"/>20cm x 15xm
+                    </label>
+                    <label for="size2">
+                        <input type="checkbox" id="two" name="icon" value="ikona1"/>20cm x 20xm
+                    </label>
+                    <label for="size3">
+                        <input type="checkbox" id="three" name="icon" value="ikona1"/>20cm x 30xm
+                    </label>
+                    <label for="size4">
+                        <input type="checkbox" id="four" name="icon" value="ikona1"/>15cm x 25cm
+                    </label>
+                    <label for="size5">
+                        <input type="checkbox" id="five" name="icon" value="ikona1"/>25cm x 35cm
+                    </label>
+                </div>
+            </div>
+
+         
+            <label for="shipping">Wybierz sposób dostawy</label>
+            <select name="shipping-options">
+                <option value="courier">Kurier
+                <option value="self-pickup">Odbiór osobisty
+            </select>
+
+        -->
+			<label for="message"> Dodatkowe informacje </label> 
+			<textarea name="messageIcons" id="msg" rows="7"> </textarea>
+
+			<input class="btn btn-icon default" type="submit" id="submit" value="Dodaj do koszyka"> 
+
+
+
+		</form>
+
+	</div> <!--End of form-container -->
+
+</div>
+</section>
+
+
+<!-- footer  -->
+
+	<footer> 
+
+		<div class="copy"> &copy; Buzderewicz 2017 </div> 
+		<ul> 
+			<li><a href="terms.html"> Regulamin   </a></li>
+			<li><a href="#"> Wysyłka i Płatność   </a></li>
+			<li><a href="#">  Cennik  </a></li>
+
+
+		</ul>
+
+	</footer>
+
+
+<script src="js/jquery-3.2.1.min.js"> </script> 
+<script src="js/jquery.validate.min.js"> </script>
+<script src="js/additional-methods.min.js"> </script>
+<script src="js/validate.js"> </script>
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+
+/*  INFO-ABOUT-ICONS SECTION */
+
+.pic-info
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.info-container 
+{
+	width: 100%;
+	margin: 0;
+}
+
+.info-section
+{
+	width: 100%;
+}
+
+/*    h2 in normalize.css   */
+
+
+/*  GALLERY SECTION */
+
+
+.icon2 
+{
+	display: none;
+}
+
+.icon3 
+{
+	display: none;
+}
+
+
+.gallery-container
+{
+	padding-top: 2%;
+}
+
+
+.photo-container
+{
+	margin: 0 auto 1em;
+}
+
+
+.photo 
+{
+	position: relative;
+	margin-bottom: 2em;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+.img-wrapper
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px 4%;
+
+	column-count: 3;
+	column-gap: 0;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 0;
+	-moz-column-count: 3;
+	-moz-column-gap: 0;
+}
+
+
+/*  Photo Overlay  */ 
+
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	width: 300px; /* to match the size of picture */
+	margin: 0 auto; /* to fit in the pictures' margin */
+	display: flex; /* For centering text inside .photo-overlay */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0, .6);
+}
+
+.size { 
+	padding: 0 2em 1em;
+} 
+
+.order
+{
+	width: 50%;
+	border: 2px solid #62B5A0;
+	border-radius: .9em;
+	margin: 5px auto;
+	padding: .3em;
+	display: block;
+
+}
+
+
+.photo a 
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.magnifier 
+{
+	position: absolute;
+	top: 1em;
+	left: 1em;
+}
+
+
+/* back-to-top  */ 
+
+.back-to-top
+{
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+.back-to-top a 
+{
+	color: #62B5A0;
+	padding: 0 .5em;
+	text-decoration: none;
+}
+
+.back-to-top a:hover 
+{
+	border-bottom: 1px solid #62B5A0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

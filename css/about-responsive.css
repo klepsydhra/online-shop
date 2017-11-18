@@ -1,0 +1,31 @@
+@media (max-width: 860px){
+
+	.about-section 
+	{
+		width: 80%;
+	}
+}
+
+
+
+@media (max-width: 470px){
+
+	header 
+	{
+		margin-bottom:0;
+	}
+
+}
+
+
+@media (max-width: 450px){
+
+	.about-section 
+	{
+		width: 95%;
+		font-size: 1em;
+	}
+
+
+}
+

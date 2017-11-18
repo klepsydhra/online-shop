@@ -1,0 +1,115 @@
+<!doctype HTML>
+<html lang="pl"> 
+
+<head>
+	<meta charset="utf-8"> 
+	<title> Joanna Buzderewicz - obrazy, ikony </title>
+	<meta property="og:title" content="Joanna Buzderewicz - obrazy, ikony" >
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" type="text/css"> 
+	<link rel="stylesheet" href="css/style-alternative.css" type="text/css"> 
+	<link rel="stylesheet" href="css/normalize.css" type="text/css"> 
+	<link rel="stylesheet" href="css/interactions.css" type="text/css"> 
+	<link rel="stylesheet" href="css/responsive.css" type="text/css"> 
+
+
+	
+
+</head>
+<body>
+
+<!-- header  -->
+
+	<header>
+        <div class="logo"><a href="index.html"> Joanna Buzderewicz </br>
+            <span> <a href="gallery.html"> obrazy </a>  |  <a href="icons-gallery.html"> ikony </a> </span> </a> 
+        </div>
+
+		<div class="nav-container">
+		<nav> 
+			<ul class="main"> 
+				<a href="index.html"><li> Home  </li></a>
+				<a href="about.html"> <li>O mnie  </li></a>
+				<li><a href="#" class="arrowlink" aria-haspopup="true"> Sklep </a>
+
+					<ul> 
+						<a href="gallery.html"><li>  Obrazy </li></a> 
+						<a href="icons-gallery.html"><li>  Ikony   </li></a>
+					</ul>
+				</li> 
+				<a href="contact.html"><li> Kontakt  </li></a>
+			</ul>
+		</nav>
+		</div>
+
+		<div class="search"> </div>
+        <div class="cart"> 
+            <a href="cart.html" class="cart-link"> 
+                <div id="number" class="cart-number">0</div>
+                 <img class="cart-bg" src="img/icons/cart48.png"> <img class="cart-sm" src="img/icons/cart32.png"> 
+            </a>
+        </div>
+
+	</header>
+
+<!-- CART  -->
+
+<section>
+
+    <div class="cart-container">
+        <div class="cart-wrapper">
+
+            <h1>Twój koszyk</h1>
+            <div id="cart-items">
+                <form action="/cart" method="post">
+                    <ul>
+                        <li class="cart-item first">
+                            <div class="image">
+                                <a href="#"></a> <!-- link do obrazu -->
+                            </div>
+                            <div class="order-summary">
+                                <span class="title"></span>
+                                <span class="size"></span>
+                                <span class="amount"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+            </div> <!-- end od cart-items-->
+
+            <div id="total" class="cart-totals">
+                <h2>Razem:</h2>
+                <div id="total-amount"> </div>
+            </div>
+
+            <div class="payment">
+                <button type="button" class="btn" value="order">Zamawiam</button> 
+            </div>
+
+        </div> <!-- end od cart-wrapper-->
+    </div> <!-- end od cart-container-->
+</section>
+
+
+<!-- footer  -->
+
+	<footer> 
+
+		<div class="copy"> &copy; Buzderewicz 2017 </div> 
+		<ul> 
+			<li><a href="terms.html"> Regulamin   </a></li>
+			<li><a href="#"> Wysyłka i Płatność   </a></li>
+			<li><a href="#">  Cennik  </a></li>
+		</ul>
+
+	</footer>
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+
+</html>
