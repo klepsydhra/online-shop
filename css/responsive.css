@@ -92,7 +92,7 @@
 		margin-bottom: 0;
 		padding-bottom: 15px;
 	}
-
+/*
 	nav ul li 
 	{
 		display: block;
@@ -102,7 +102,7 @@
 		
 	} 
 
-	nav ul a:last-child, nav ul ul li /* kontakt, obrazy */
+	nav ul a:last-child, nav ul ul li /* kontakt, obrazy 
 	{
 		border-bottom: none;
 	} 
@@ -111,6 +111,7 @@
 	{
 		z-index: 100;
 	}
+	*/
 
 	#pager 
 	{
@@ -237,6 +238,20 @@
 
 @media (max-width: 400px){
 
+
+	nav ul {
+		font-size: .8em;
+	}
+
+	nav ul a li {
+		
+		padding: 0 1em;
+	}
+
+	nav ul li {
+		padding: 0 1em;
+	}
+
 	p, 
 	.back-to-top 
 	{
@@ -308,7 +323,13 @@
 
 }
 
+@media (max-width: 275px) {
+	nav ul {
+		font-size: .7em;
+	}
 
+
+}
 
 
 @media (max-width: 250px) {
@@ -322,6 +343,14 @@
 		padding-top: 1em;	
 	}
 
+}
+
+@media (max-width: 240px) {
+	
+	nav ul a li {	
+		padding: 0 .8em;
+	}
+	
 }
 
 /*about */

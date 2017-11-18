@@ -61,6 +61,16 @@
 		background: #fff;
 	}
 
+	.photo-overlay 
+	{
+		opacity: 0;
+		transition: opacity .5s;
+	}
+	.photo-overlay:hover 
+	{
+		opacity: 0;
+	}
+
 	.photo-container
 	{
 		margin-bottom: 1em;
