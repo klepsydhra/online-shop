@@ -48,6 +48,18 @@
 	{
 		margin-bottom: 1em;
 	}
+	.post-img-info 
+	{
+		font-size: .8em;
+		color: #000;
+		text-align: center;
+		width: 300px; /* to match the size of picture */
+		margin: 0 auto; /* to fit in the pictures' margin */
+		display: flex; /* For centering text inside .photo-overlay */
+		flex-direction: column;
+		align-items: center;
+		background: #fff;
+	}
 
 	.photo-container
 	{
@@ -88,6 +100,13 @@
 	{
 		width: 400px;
 	}
+
+	.post-img-info 
+	{
+		font-size: 1em;
+		width: 400px; /* to match the size of picture */
+	}
+
 }
 
 
@@ -120,6 +139,12 @@
 	.photo-overlay 
 	{
 		width: 300px;
+	}
+
+	.post-img-info 
+	{
+		font-size: .8em;
+		width: 300px; /* to match the size of picture */
 	}
 
 }
@@ -158,6 +183,17 @@
 	.photo-overlay 
 	{
 		width: 214px;
+	}
+
+	.post-img-info 
+	{
+		font-size: .8em;
+		width: 214px; /* to match the size of picture */
+	}
+
+	.post-img-info > h3
+	{
+		margin: 0 0 1%;
 	}
 
 }

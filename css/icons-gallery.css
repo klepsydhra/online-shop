@@ -23,6 +23,22 @@
 
 /*  GALLERY SECTION */
 
+.post-img-info 
+{
+	display: none;
+}
+
+.post-img-info > a {
+	color: #000;	
+}
+
+.post-img-info > h3 {
+	margin-bottom: 2% ;	
+}
+
+.post-img-info > p {
+	margin-bottom: 2%;	
+}
 
 .icon2 
 {
@@ -101,14 +117,14 @@
 	margin: 5px auto;
 	padding: .3em;
 	display: block;
-
+	color: #fff;
 }
 
 
 .photo a 
 {
 	text-decoration: none;
-	color: #fff;
+	
 }
 
 
