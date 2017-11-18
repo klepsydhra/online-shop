@@ -1,4 +1,25 @@
 
+/*
+@media (min-width: 1441px) {
+	#slider 
+	{
+		width: 100%;
+		max-height: 700px;
+	}
+
+	.slide-container
+	{
+		/* dodac zdjecie odpowiadajace tym wymiarom 
+		max-width: 1600px; /* 1200px orygnalnie 
+		height: 950px; /*650px 
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		background-color: grey;
+	}
+} */
+
+
 @media (max-width: 1140px){
 	.logo {
 		width: 35%;

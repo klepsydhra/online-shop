@@ -10,7 +10,7 @@
 .info-container 
 {
 	width: 100%;
-	margin: 0;
+	margin: 0 auto;
 }
 
 .info-section
@@ -60,6 +60,7 @@
 .photo-container
 {
 	margin: 0 auto 1em;
+	min-height: 100%;
 }
 
 
